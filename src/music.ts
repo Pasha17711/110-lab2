@@ -9,7 +9,7 @@ export const music: string[] = [
 export function printMusic(): void {
   printAnimation("Music");
 
-  console.log("Music for the Ultimate Party:");
+  console.log("Music Playlist for the Ultimate Party:");
 
   for (const song of music) {
     console.log(song);
