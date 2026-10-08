@@ -1,4 +1,4 @@
-export const snacks: string[] = ["Chips", "Cookies"];
+export const snacks: string[] = ["Chips", "Cookies", "Popcorn", "Pretzels", "Brownies", "Nachos"];
 
 export function printSnacks(): void {
     console.log("Snacks for the Ultimate Party:");
