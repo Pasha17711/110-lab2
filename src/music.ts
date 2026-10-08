@@ -1,15 +1,19 @@
+import { printAnimation } from "./animation";
+
 export const music: string[] = [
-    "The Nights",
-    "Blinding Lights",
-    "Starboy"
+  "The Nights",
+  "Blinding Lights",
+  "Starboy"
 ];
 
 export function printMusic(): void {
-    console.log("Music for the Ultimate Party:");
+  printAnimation("Music");
 
-    for (const song of music) {
-        console.log(song);
-    }
+  console.log("Music for the Ultimate Party:");
+
+  for (const song of music) {
+    console.log(song);
+  }
 }
 
 printMusic();
